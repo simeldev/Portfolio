@@ -1,0 +1,24 @@
+/* Custom Properties */
+
+:root {
+    --blue: #007af3;
+    --blue-shade: #006bd6;
+    --black: #20272e;
+}
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "Urbanist";
+    src: url("./assets/Urbanist.ttf");
+}
+
+
+/* Global Styling */
+
+* {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    font-family: "Urbanist";
+}
